@@ -100,4 +100,4 @@ TaskHub/
 ---
 
 ## 📄 Licença
-[![License - MIT](https://img.shields.io/github/license/radzenhq/radzen-blazor?logo=github&style=for-the-badge)](https://github.com/udutra/TaskHub/LICENSE)
+[![License - MIT](https://img.shields.io/github/license/udutra/TaskHub)](https://github.com/udutra/TaskHub/blob/main/LICENSE)
