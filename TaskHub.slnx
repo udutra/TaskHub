@@ -1,0 +1,17 @@
+﻿<Solution>
+  <Folder Name="/Git/">
+    <File Path=".gitignore" />
+  </Folder>
+  <Folder Name="/SolutionFolder/">
+    <File Path="README.md" />
+    <File Path="LICENSE.txt" />
+  </Folder>
+  <Project Path="TaskHub.Api\TaskHub.Api.csproj" Type="Classic C#" />
+  <Project Path="TaskHub.Application\TaskHub.Application.csproj" Type="Classic C#" />
+  <Project Path="TaskHub.Domain\TaskHub.Domain.csproj" Type="Classic C#" />
+  <Project Path="TaskHub.Infrastructure\TaskHub.Infrastructure.csproj" Type="Classic C#" />
+  <Project Path="TaskHub.IntegrationTests\TaskHub.IntegrationTests.csproj" Type="Classic C#" />
+  <Project Path="TaskHub.UnitTests\TaskHub.UnitTests.csproj" Type="Classic C#" />
+  <Project Path="TaskHub.Web\TaskHub.Web.Client\TaskHub.Web.Client.csproj" Type="Classic C#" />
+  <Project Path="TaskHub.Web\TaskHub.Web\TaskHub.Web.csproj" Type="Classic C#" />
+</Solution>
