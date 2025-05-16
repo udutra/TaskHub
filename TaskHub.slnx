@@ -4,7 +4,7 @@
   </Folder>
   <Folder Name="/SolutionFolder/">
     <File Path="README.md" />
-    <File Path="LICENSE.txt" />
+    <File Path="LICENSE" />
   </Folder>
   <Project Path="TaskHub.Api\TaskHub.Api.csproj" Type="Classic C#" />
   <Project Path="TaskHub.Application\TaskHub.Application.csproj" Type="Classic C#" />

@@ -12,6 +12,7 @@
           <PrivateAssets>all</PrivateAssets>
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
+        <PackageReference Include="coverlet.msbuild" Version="3.2.0" />
         <PackageReference Include="FluentAssertions" Version="8.2.0" />
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
         <PackageReference Include="Moq" Version="4.20.72" />
@@ -25,5 +26,24 @@
     <ItemGroup>
         <Using Include="Xunit"/>
     </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\TaskHub.Application\TaskHub.Application.csproj" />
+    </ItemGroup>
+
+    <PropertyGroup>
+        <!-- Habilita a coleta de cobertura -->
+        <CollectCoverage>true</CollectCoverage>
+
+        <!-- Formatos de saída do relatório, exemplo: cobertura e opencover -->
+        <CoverletOutputFormat>opencover,cobertura</CoverletOutputFormat>
+
+        <!-- Diretório onde o relatório será salvo -->
+        <CoverletOutput>$(SolutionDir)TestResults\coverage-$(MSBuildProjectName).xml</CoverletOutput>
+
+        <!-- Exclui arquivos ou pastas da cobertura, exemplo arquivos gerados -->
+        <ExcludeByFile>**/Migrations/*.cs</ExcludeByFile>
+    </PropertyGroup>
+
 
 </Project>
